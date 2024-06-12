@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+  body {
+/*   background-color: #14161b;*/
+  }
+}
+.container{
+  width: 75%;
+  margin: auto;
+}
+.carousel-card{
+  width: 100%;
+  text-align: center  ;
+}
+.card-img{
+  width: 100px;
+}
+.card-img img{
+  width: 100%;
+  height:  100px;
+  border-radius: 50%;
+}
+.carousel-card button{
+  padding: 5px 15px;
+}
+.slick-prev::before, .slick-next::before{
+  color: black;
+}
+.slick-slide > div {
+  margin: 0 10px;
+}
+
+.slick-dots li.slick-active button:before {
+  color:orange !important;
+}
